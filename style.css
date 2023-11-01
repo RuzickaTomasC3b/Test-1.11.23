@@ -42,6 +42,7 @@ body{
     height: 5vh;
     background: orange;
     text-decoration-color: black;
+    font-family: "Comic Sans MS";
 }
 .navigation {
     margin-left: 80vw;
@@ -52,7 +53,71 @@ body{
     height: 5vh;
     background: orange;
     text-decoration-color: black;
+    font-family: "Comic Sans MS";
 }
 .nadpis{
     text-align: center;
+    font-family: "Comic Sans MS";
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 130px;
+    height: 70px;
+    margin: 10px;
+    border: 6px;
+    text-align: center;
+    line-height: 80px;
+    background-color: blue;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+.contact-item1 {
+    background-color: blue;
+    font-family: "Comic Sans MS";
+}
+
+.contact-item2 {
+    background-color: green;
+    font-family: "Comic Sans MS";
+}
+
+.contact-item3 {
+    background-color: red;
+    font-family: "Comic Sans MS";
+}
+.contact-item4 {
+    background-color: orange;
+    font-family: "Comic Sans MS";
+}
+
+.contact-item5 {
+    background-color: purple;
+    font-family: "Comic Sans MS";
+}
+
+.contact-item6 {
+    background-color: pink;
+    font-family: "Comic Sans MS";
+}
+.html1{
+    background-color: lightskyblue;
+}
+.html2{
+    background-color: grey;
+}
+.html3{
+    background-color: darkorange;
+}
+p{
+    font-family: "Comic Sans MS";
+}
+
